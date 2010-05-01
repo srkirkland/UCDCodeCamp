@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2c3c2745-378a-4078-9f4f-ef34572c9cb1</ProjectGuid>
+    <ProjectGuid>{D8222F21-87E2-4B10-AEC6-09027201F060}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UcdMvcBootCamp.Core</RootNamespace>
@@ -43,9 +43,16 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UCDArch.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=667f3cb07abadf4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\UCDArch.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Domain\Attendee.cs" />
+    <Compile Include="Domain\Conference.cs" />
+    <Compile Include="Domain\Session.cs" />
+    <Compile Include="Domain\Speaker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

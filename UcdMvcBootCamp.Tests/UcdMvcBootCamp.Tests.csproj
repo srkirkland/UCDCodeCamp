@@ -50,6 +50,10 @@
       <HintPath>..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 2\\Assemblies\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Routing" />
+    <Reference Include="UCDArch.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=667f3cb07abadf4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\UCDArch.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

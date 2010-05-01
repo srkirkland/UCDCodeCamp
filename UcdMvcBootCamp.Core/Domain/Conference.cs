@@ -6,8 +6,8 @@ namespace UcdMvcBootCamp.Core.Domain
 {
     public class Conference : DomainObject
     {
-        private readonly ISet<Attendee> _attendees = new HashSet<Attendee>();
-        private readonly ISet<Session> _sessions = new HashSet<Session>();
+        public virtual IList<Attendee> Attendees { get; set; }
+        public virtual IList<Session> Sessions { get; set; }
 
         public Conference(string name)
         {
@@ -29,29 +29,29 @@ namespace UcdMvcBootCamp.Core.Domain
 
         public virtual IEnumerable<Attendee> GetAttendees()
         {
-            return _attendees;
+            return Attendees;
         }
 
         public virtual Attendee GetAttendee(int attendeeId)
         {
-            return _attendees.First(a => a.Id == attendeeId);
+            return Attendees.First(a => a.Id == attendeeId);
         }
 
         public virtual void AddSession(Session session)
         {
-            _sessions.Add(session);
+            Sessions.Add(session);
             session.Conference = this;
             SessionCount++;
         }
 
         public virtual IEnumerable<Session> GetSessions()
         {
-            return _sessions;
+            return Sessions;
         }
 
         protected internal virtual void AddAttendee(Attendee attendee)
         {
-            _attendees.Add(attendee);
+            Attendees.Add(attendee);
             AttendeeCount++;
         }
     }

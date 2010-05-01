@@ -5,7 +5,7 @@ namespace UcdMvcBootCamp.Core.Domain
 {
     public class Speaker : DomainObject
     {
-        private readonly ISet<Session> _sessions = new HashSet<Session>();
+        public virtual IList<Session> Sessions { get; set; }
 
         public Speaker(string firstName, string lastName)
         {
@@ -23,12 +23,12 @@ namespace UcdMvcBootCamp.Core.Domain
 
         public virtual IEnumerable<Session> GetSessions()
         {
-            return _sessions;
+            return Sessions;
         }
 
         public virtual void Register(Session session)
         {
-            _sessions.Add(session);
+            Sessions.Add(session);
         }
     }
 }
