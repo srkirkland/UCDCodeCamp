@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp", "UcdMvcBootCamp.csproj", "{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp.Tests", "..\UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj", "{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
