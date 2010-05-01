@@ -8,15 +8,43 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="376" fromTop="15" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2507" fromTop="39" />
+      <File id="15C42C4D-E6C7-43EA-B6C3-C268001A73FE/d:Controllers/f:HomeControllerTest.cs" caret="503" fromTop="19" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1835" fromTop="17" />
+      <File id="d:Miscellaneous Files/f:NHibernateSessionManager.cs/l:C!?Projects?Dev?UCDArch-MVC2?UCDArch.Data?NHibernate?NHibernateSessionManager.cs" caret="1022" fromTop="25" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Web.config" caret="2443" fromTop="19" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="691" fromTop="21" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Session.cs" caret="0" fromTop="0" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="88" fromTop="2" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="783" fromTop="29" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="201" fromTop="7" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="459" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="753" fromTop="13" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1509" fromTop="38" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2083" fromTop="46" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2316" fromTop="50" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="3214" fromTop="54" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="788" fromTop="13" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1544" fromTop="38" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2212" fromTop="46" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2445" fromTop="50" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="3343" fromTop="54" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="10259" fromTop="18" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Web.config" caret="3833" fromTop="39" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Web.config" caret="549" fromTop="11" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Web.config" caret="2706" fromTop="26" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="146" fromTop="6" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1835" fromTop="17" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="279" fromTop="36" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="891" fromTop="32" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1007" fromTop="37" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1142" fromTop="42" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1337" fromTop="43" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1457" fromTop="48" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="190" fromTop="7" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="205" fromTop="6" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="681" fromTop="24" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="783" fromTop="29" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="279" fromTop="12" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="52" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="389" fromTop="15" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="2986" fromTop="22" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -30,4 +58,88 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="System" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Generic" priority="0" />
+      <Item value="IList" priority="3" />
+      <Item value="ICollection" priority="1" />
+      <Item value="x" priority="2" />
+      <Item value="MsSqlConfiguration`0" priority="0" />
+      <Item value="c" priority="0" />
+      <Item value="var" priority="5" />
+      <Item value="configuration" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="session" priority="0" />
+      <Item value="ts" priority="0" />
+      <Item value="NHibernateSessionConfiguration`0" priority="0" />
+      <Item value="Attendee`0" priority="2" />
+      <Item value="Repository" priority="1" />
+      <Item value="att" priority="0" />
+      <Item value="first" priority="0" />
+      <Item value="conference" priority="0" />
+      <Item value="prop" priority="2" />
+      <Item value="Session`0" priority="1" />
+      <Item value="Attendees" priority="2" />
+      <Item value="Sessions" priority="1" />
+      <Item value="virtual" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Fluently">
+      <Item value="Configure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentConfiguration">
+      <Item value="Database`0" priority="0" />
+      <Item value="Mappings`0" priority="0" />
+      <Item value="BuildSessionFactory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Db.MsSqlConfiguration">
+      <Item value="MsSql2008" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.Db.MsSqlConfiguration">
+      <Item value="ConnectionString`0" priority="0" />
+      <Item value="ProxyFactoryFactory`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.Db.MsSqlConnectionStringBuilder">
+      <Item value="Database`0" priority="0" />
+      <Item value="Server`0" priority="0" />
+      <Item value="TrustedConnection`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.MappingConfiguration">
+      <Item value="AutoMappings" priority="0" />
+      <Item value="FluentMappings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentMappingsContainer">
+      <Item value="AddFromAssemblyOf`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="OpenSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="BeginTransaction`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ITransaction">
+      <Item value="Commit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UCDArch.Data.NHibernate.NHibernateSessionConfiguration">
+      <Item value="Mappings`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UCDArch.Data.NHibernate.NHibernateSessionConfiguration+Mappings">
+      <Item value="UseAutoMappings`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
+      <Item value="OfType`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
+      <Item value="GetAll`0" priority="0" />
+      <Item value="Queryable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Attendee">
+      <Item value="Conference" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
+      <Item value="GetAttendees`0" priority="0" />
+      <Item value="GetSessions`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
