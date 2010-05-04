@@ -17,12 +17,12 @@
       <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="88" fromTop="2" />
       <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="783" fromTop="29" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="201" fromTop="7" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="459" fromTop="9" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Models/f:LogOnModel.cs" caret="215" fromTop="6" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Account/f:LogOn.aspx" caret="702" fromTop="14" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="1031" fromTop="18" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Home/f:Index.aspx" caret="517" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="788" fromTop="13" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1544" fromTop="38" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2212" fromTop="46" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="2445" fromTop="50" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="3343" fromTop="54" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="10259" fromTop="18" />
@@ -44,7 +44,15 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="279" fromTop="12" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="52" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="389" fromTop="15" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="2986" fromTop="22" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="1031" fromTop="22" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="1031" fromTop="39" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="300" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Models/f:LogOnModel.cs" caret="40" fromTop="1" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Models/f:LogOnModel.cs" caret="215" fromTop="6" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="716" fromTop="17" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="962" fromTop="24" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="1031" fromTop="18" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Account/f:LogOn.aspx" caret="492" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -79,11 +87,18 @@
       <Item value="att" priority="0" />
       <Item value="first" priority="0" />
       <Item value="conference" priority="0" />
-      <Item value="prop" priority="2" />
+      <Item value="prop" priority="5" />
       <Item value="Session`0" priority="1" />
       <Item value="Attendees" priority="2" />
       <Item value="Sessions" priority="1" />
       <Item value="virtual" priority="1" />
+      <Item value="string" priority="1" />
+      <Item value="bool" priority="0" />
+      <Item value="FormsAuthentication`0" priority="1" />
+      <Item value="model" priority="1" />
+      <Item value="returnUrl" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="RedirectToAction`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Fluently">
       <Item value="Configure`0" priority="0" />
@@ -140,6 +155,14 @@
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
       <Item value="GetAttendees`0" priority="0" />
       <Item value="GetSessions`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.FormsAuthentication">
+      <Item value="SetAuthCookie`0" priority="0" />
+      <Item value="SignOut`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UcdMvcBootCamp.Models.LogOnModel">
+      <Item value="UserName" priority="0" />
+      <Item value="RememberMe" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
