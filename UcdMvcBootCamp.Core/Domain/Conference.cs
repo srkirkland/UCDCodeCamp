@@ -9,14 +9,18 @@ namespace UcdMvcBootCamp.Core.Domain
         public virtual IList<Attendee> Attendees { get; set; }
         public virtual IList<Session> Sessions { get; set; }
 
-        public Conference(string name)
+        public Conference(string name) : this()
         {
             Name = name;
             AttendeeCount = 0;
             SessionCount = 0;
         }
 
-        protected Conference() { }
+        protected Conference()
+        {
+            Attendees = new List<Attendee>();
+            Sessions = new List<Session>();
+        }
 
         public virtual string Name { get; private set; }
         public virtual int AttendeeCount { get; private set; }

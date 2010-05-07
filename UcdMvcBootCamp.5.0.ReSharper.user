@@ -1,0 +1,57 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="3" />
+      <Item value="Repository" priority="2" />
+      <Item value="confernce" priority="3" />
+      <Item value="session" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="Session`0" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="Speaker`0" priority="0" />
+      <Item value="newSpeaker" priority="0" />
+      <Item value="newSession" priority="0" />
+      <Item value="Conference`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
+      <Item value="OfType`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
+      <Item value="Queryable" priority="0" />
+      <Item value="EnsurePersistent`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
+      <Item value="Sessions" priority="0" />
+      <Item value="AddSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="398" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="793" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

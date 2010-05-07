@@ -7,13 +7,16 @@ namespace UcdMvcBootCamp.Core.Domain
     {
         public virtual IList<Session> Sessions { get; set; }
 
-        public Speaker(string firstName, string lastName)
+        public Speaker(string firstName, string lastName) : this()
         {
             FirstName = firstName;
             LastName = lastName;
         }
 
-        protected Speaker() { }
+        protected Speaker()
+        {
+            Sessions = new List<Session>();
+        }
 
         public virtual string FirstName { get; private set; }
 
