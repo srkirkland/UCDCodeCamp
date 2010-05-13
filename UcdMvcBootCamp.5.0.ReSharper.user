@@ -10,41 +10,46 @@
     <ItemStatistics item="Default">
       <Item value="var" priority="0" />
       <Item value="from" priority="0" />
-      <Item value="Repository" priority="0" />
+      <Item value="Repository" priority="1" />
       <Item value="where" priority="0" />
-      <Item value="c" priority="1" />
-      <Item value="select" priority="0" />
-      <Item value="new" priority="0" />
-      <Item value="x" priority="0" />
-      <Item value="q" priority="0" />
+      <Item value="c" priority="2" />
+      <Item value="select" priority="1" />
+      <Item value="new" priority="2" />
+      <Item value="x" priority="1" />
+      <Item value="q" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
       <Item value="OfType`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
-      <Item value="Queryable" priority="0" />
+      <Item value="Queryable" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
-      <Item value="Name" priority="1" />
-      <Item value="SessionCount" priority="0" />
-      <Item value="Sessions" priority="0" />
+      <Item value="Name" priority="3" />
+      <Item value="SessionCount" priority="2" />
+      <Item value="Sessions" priority="3" />
+      <Item value="Id" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="Select`2" priority="0" />
+      <Item value="Select`2" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Session">
-      <Item value="Title" priority="0" />
+      <Item value="Title" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
-      <Item value="ToList`1" priority="0" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="First`1" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="382" fromTop="15" />
+      <File id="d:UcdMvcBootCamp.DB/d:Create Scripts/f:CreateDbWithData.sql" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="405" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="409" fromTop="16" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="656" fromTop="16" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="588" fromTop="19" />
+      <File id="d:UcdMvcBootCamp.DB/d:Create Scripts/f:CreateDbWithData.sql" caret="4697" fromTop="54" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
