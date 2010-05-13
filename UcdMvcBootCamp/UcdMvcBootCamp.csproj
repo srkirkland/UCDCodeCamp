@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ConferenceController.cs" />
     <Compile Include="Controllers\DynamicController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -145,6 +146,7 @@
       <DependentUpon>CodeCamp.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Views\Dynamic\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Content\Site.css" />
