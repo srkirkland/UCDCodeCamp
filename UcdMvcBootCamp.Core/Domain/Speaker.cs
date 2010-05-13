@@ -13,14 +13,14 @@ namespace UcdMvcBootCamp.Core.Domain
             LastName = lastName;
         }
 
-        protected Speaker()
+        public Speaker()
         {
             Sessions = new List<Session>();
         }
 
-        public virtual string FirstName { get; private set; }
+        public virtual string FirstName { get; set; }
 
-        public virtual string LastName { get; private set; }
+        public virtual string LastName { get; set; }
 
         public virtual string Bio { get; set; }
 

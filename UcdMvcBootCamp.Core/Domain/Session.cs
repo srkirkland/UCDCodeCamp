@@ -15,9 +15,9 @@ namespace UcdMvcBootCamp.Core.Domain
 
         protected Session() { }
 
-        public virtual string Title { get; private set; }
-        public virtual string Abstract { get; private set; }
-        public virtual Speaker Speaker { get; private set; }
-        public virtual Conference Conference { get; protected internal set; }
+        public virtual string Title { get; set; }
+        public virtual string Abstract { get; set; }
+        public virtual Speaker Speaker { get; set; }
+        public virtual Conference Conference { get; set; }
     }
 }

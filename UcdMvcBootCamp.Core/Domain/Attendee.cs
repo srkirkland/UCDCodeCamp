@@ -10,13 +10,13 @@ namespace UcdMvcBootCamp.Core.Domain
             LastName = lastName;
         }
 
-        protected Attendee() { }
+        public Attendee() { }
 
-        public virtual string FirstName { get; private set; }
-        public virtual string LastName { get; private set; }
+        public virtual string FirstName { get; set; }
+        public virtual string LastName { get; set; }
         public virtual string Email { get; set; }
         
-        public virtual Conference Conference { get; private set; }
+        public virtual Conference Conference { get; set; }
 
         public virtual void ChangeName(string firstName, string lastName)
         {
