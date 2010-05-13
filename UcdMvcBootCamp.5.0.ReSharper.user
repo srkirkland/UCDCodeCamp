@@ -8,9 +8,9 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="var" priority="0" />
+      <Item value="var" priority="1" />
       <Item value="from" priority="0" />
-      <Item value="Repository" priority="1" />
+      <Item value="Repository" priority="2" />
       <Item value="where" priority="0" />
       <Item value="c" priority="2" />
       <Item value="select" priority="1" />
@@ -19,10 +19,11 @@
       <Item value="q" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
-      <Item value="OfType`1" priority="0" />
+      <Item value="OfType`1" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
       <Item value="Queryable" priority="1" />
+      <Item value="GetAll`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
       <Item value="Name" priority="3" />
@@ -44,10 +45,12 @@
   <RecentFiles>
     <RecentFiles>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="405" fromTop="19" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="276" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="263" fromTop="8" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="368" fromTop="16" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="52" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
