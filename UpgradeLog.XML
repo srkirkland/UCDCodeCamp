@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UcdMvcBootCamp">
+</Property><Property Name="Solution File" Value="C:\Users\kirkland\Documents\Visual Studio 2010\Projects\CodeCamp\UcdMvcBootCamp.sln">
+</Property><Property Name="Date" Value="Thursday, May 13, 2010">
+</Property><Property Name="Time" Value="12:42 PM">
+</Property></Properties><Event ErrorLevel="0" Project="UcdMvcBootCamp" Source="UcdMvcBootCamp\UcdMvcBootCamp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UcdMvcBootCamp" Source="UcdMvcBootCamp\UcdMvcBootCamp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UcdMvcBootCamp.Tests" Source="UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UcdMvcBootCamp.Tests" Source="UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UcdMvcBootCamp.Core" Source="UcdMvcBootCamp.Core\UcdMvcBootCamp.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UcdMvcBootCamp.Core" Source="UcdMvcBootCamp.Core\UcdMvcBootCamp.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UcdMvcBootCamp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UcdMvcBootCamp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UcdMvcBootCamp" Source="UcdMvcBootCamp\UcdMvcBootCamp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UcdMvcBootCamp.Tests" Source="UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UcdMvcBootCamp.Core" Source="UcdMvcBootCamp.Core\UcdMvcBootCamp.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

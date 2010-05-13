@@ -1,12 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp", "UcdMvcBootCamp\UcdMvcBootCamp.csproj", "{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp.Tests", "UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj", "{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp.Core", "UcdMvcBootCamp.Core\UcdMvcBootCamp.Core.csproj", "{D8222F21-87E2-4B10-AEC6-09027201F060}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{A28D4FB0-55A9-49F0-8F34-D7033C625851}"
 	ProjectSection(SolutionItems) = preProject
 		Bin\Antlr3.Runtime.dll = Bin\Antlr3.Runtime.dll
@@ -45,6 +39,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{A28D4FB0-55A
 		Bin\UCDArch.Web.Providers.dll = Bin\UCDArch.Web.Providers.dll
 		Bin\xVal.dll = Bin\xVal.dll
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp", "UcdMvcBootCamp\UcdMvcBootCamp.csproj", "{D7CED80F-2BEF-4A5E-B338-1BC031A953F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp.Tests", "UcdMvcBootCamp.Tests\UcdMvcBootCamp.Tests.csproj", "{15C42C4D-E6C7-43EA-B6C3-C268001A73FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcdMvcBootCamp.Core", "UcdMvcBootCamp.Core\UcdMvcBootCamp.Core.csproj", "{D8222F21-87E2-4B10-AEC6-09027201F060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
