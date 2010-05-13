@@ -6,7 +6,7 @@ using UcdMvcBootCamp.Core.Domain;
 
 namespace UcdMvcBootCamp.Controllers
 {
-    public class ConferenceController : SuperController
+    public class ConferenceController : ApplicationController
     {
         private readonly IRepository<Conference> _conferenceRepository;
 
