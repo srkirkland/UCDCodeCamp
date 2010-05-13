@@ -44,14 +44,9 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="276" fromTop="10" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:DynamicController.cs" caret="424" fromTop="21" />
     </RecentFiles>
-    <RecentEdits>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="263" fromTop="8" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="368" fromTop="16" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="52" fromTop="0" />
-    </RecentEdits>
+    <RecentEdits />
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
