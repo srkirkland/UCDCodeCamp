@@ -44,10 +44,20 @@
   <RecentFiles>
     <RecentFiles>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="405" fromTop="19" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="533" fromTop="17" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="399" fromTop="14" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Session.cs" caret="388" fromTop="15" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="3353" fromTop="59" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="263" fromTop="8" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="359" fromTop="13" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="533" fromTop="17" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Session.cs" caret="601" fromTop="19" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="583" fromTop="21" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="399" fromTop="14" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
