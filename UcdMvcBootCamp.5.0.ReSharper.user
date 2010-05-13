@@ -43,13 +43,11 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="d:UcdMvcBootCamp.DB/d:Create Scripts/f:CreateDbWithData.sql" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="405" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="656" fromTop="16" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="588" fromTop="19" />
-      <File id="d:UcdMvcBootCamp.DB/d:Create Scripts/f:CreateDbWithData.sql" caret="4697" fromTop="54" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="263" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
