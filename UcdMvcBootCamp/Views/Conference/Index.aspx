@@ -2,6 +2,11 @@
 <asp:Content runat="server" ID="Content" ContentPlaceHolderID="TitleContent"></asp:Content>
 <asp:Content runat="server" ID="Content1" ContentPlaceHolderID="MainContent">
 
+    <% using (Html.BeginForm("Index", "Conference", FormMethod.Get)) { %>
+
+    Min Sessions: <%= Html.TextBox("minSessions") %> <input type="submit" value="Filter!" />
+
+    <% } %>
 
 <table>
     <thead>

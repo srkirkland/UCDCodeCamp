@@ -17,9 +17,10 @@ namespace UcdMvcBootCamp.Controllers
             _conferenceRepository = conferenceRepository;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(int minSessions = 0)
         {
             var allConferences = from c in _conferenceRepository.Queryable
+                                 where c.SessionCount >= minSessions
                                  select
                                      new ConferenceListModel
                                          {Name = c.Name, SessionCount = c.SessionCount, AttendeeCount = c.AttendeeCount};

@@ -11,13 +11,17 @@
       <Item value="var" priority="1" />
       <Item value="from" priority="0" />
       <Item value="Repository" priority="2" />
-      <Item value="where" priority="0" />
-      <Item value="c" priority="2" />
+      <Item value="where" priority="1" />
+      <Item value="c" priority="3" />
       <Item value="select" priority="1" />
       <Item value="new" priority="2" />
       <Item value="x" priority="1" />
       <Item value="q" priority="2" />
       <Item value="ApplicationController`0" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="minSessions" priority="0" />
+      <Item value="Html" priority="0" />
+      <Item value="FormMethod`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
       <Item value="OfType`1" priority="1" />
@@ -28,8 +32,8 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
       <Item value="Name" priority="3" />
-      <Item value="SessionCount" priority="2" />
-      <Item value="Sessions" priority="3" />
+      <Item value="SessionCount" priority="3" />
+      <Item value="Sessions" priority="4" />
       <Item value="Id" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
@@ -42,16 +46,25 @@
       <Item value="ToList`1" priority="1" />
       <Item value="First`1" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextBox`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="253" fromTop="7" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="416" fromTop="3" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="598" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="139" fromTop="6" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="253" fromTop="7" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="409" fromTop="3" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="598" fromTop="18" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
