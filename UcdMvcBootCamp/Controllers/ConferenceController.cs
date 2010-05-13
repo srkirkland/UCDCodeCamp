@@ -42,7 +42,7 @@ namespace UcdMvcBootCamp.Controllers
             var conferenceToEdit = _conferenceRepository.GetNullableById(conference.Id);
 
             conferenceToEdit.ChangeName(conference.Name);
-
+            
             _conferenceRepository.EnsurePersistent(conferenceToEdit);
 
             return RedirectToAction("Index");

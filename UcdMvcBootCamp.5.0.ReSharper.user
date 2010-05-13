@@ -3,6 +3,7 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
@@ -10,40 +11,45 @@
     <ItemStatistics item="Default">
       <Item value="var" priority="1" />
       <Item value="from" priority="0" />
-      <Item value="Repository" priority="2" />
+      <Item value="Repository" priority="3" />
       <Item value="where" priority="1" />
       <Item value="c" priority="4" />
       <Item value="select" priority="1" />
       <Item value="new" priority="3" />
-      <Item value="x" priority="5" />
+      <Item value="x" priority="6" />
       <Item value="q" priority="2" />
       <Item value="ApplicationController`0" priority="0" />
       <Item value="int" priority="3" />
       <Item value="minSessions" priority="0" />
-      <Item value="Html" priority="5" />
+      <Item value="Html" priority="6" />
       <Item value="FormMethod`0" priority="0" />
       <Item value="public" priority="4" />
       <Item value="ActionResult`0" priority="1" />
       <Item value="View`0" priority="0" />
-      <Item value="conference" priority="4" />
+      <Item value="conference" priority="7" />
       <Item value="prop" priority="2" />
       <Item value="Id" priority="0" />
-      <Item value="_conferenceRepository" priority="1" />
+      <Item value="_conferenceRepository" priority="2" />
       <Item value="id" priority="0" />
       <Item value="class" priority="0" />
       <Item value="Conference`0" priority="0" />
       <Item value="HttpPost" priority="0" />
-      <Item value="conferenceToEdit" priority="2" />
+      <Item value="conferenceToEdit" priority="7" />
       <Item value="RedirectToAction`0" priority="0" />
+      <Item value="i" priority="3" />
+      <Item value="Model" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="attendee" priority="3" />
+      <Item value="modifiedAttendee" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
-      <Item value="OfType`1" priority="1" />
+      <Item value="OfType`1" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
       <Item value="Queryable" priority="1" />
       <Item value="GetAll`0" priority="0" />
       <Item value="GetNullableById`0" priority="0" />
-      <Item value="EnsurePersistent`0" priority="0" />
+      <Item value="EnsurePersistent`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Conference">
       <Item value="Name" priority="8" />
@@ -51,9 +57,12 @@
       <Item value="Sessions" priority="4" />
       <Item value="Id" priority="4" />
       <Item value="ChangeName`0" priority="0" />
+      <Item value="Attendees" priority="8" />
+      <Item value="GetAttendee`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
       <Item value="Select`2" priority="3" />
+      <Item value="Count" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Session">
       <Item value="Title" priority="2" />
@@ -65,11 +74,12 @@
     <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
       <Item value="TextBox`0" priority="0" />
       <Item value="ActionLink`0" priority="0" />
-      <Item value="EditorFor`2" priority="0" />
-      <Item value="LabelFor`2" priority="0" />
+      <Item value="EditorFor`2" priority="2" />
+      <Item value="LabelFor`2" priority="1" />
       <Item value="ValidationMessageFor`2" priority="0" />
       <Item value="AntiForgeryToken`0" priority="0" />
       <Item value="HiddenFor`2" priority="0" />
+      <Item value="TextBoxFor`2" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
       <Item value="Get" priority="0" />
@@ -78,6 +88,12 @@
       <Item value="AttendeeCount" priority="0" />
       <Item value="Id" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:UcdMvcBootCamp.Core.Domain.Attendee">
+      <Item value="FirstName" priority="1" />
+      <Item value="LastName" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="ChangeName`0" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
@@ -85,8 +101,10 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1669" fromTop="15" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="357" fromTop="3" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1252" fromTop="36" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="534" fromTop="17" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1013" fromTop="20" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1519" fromTop="43" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="535" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="139" fromTop="6" />
@@ -95,16 +113,21 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="409" fromTop="3" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="598" fromTop="18" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="538" fromTop="9" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1703" fromTop="39" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1715" fromTop="39" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="913" fromTop="24" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="864" fromTop="21" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1681" fromTop="34" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1861" fromTop="34" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1693" fromTop="34" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1873" fromTop="34" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="626" fromTop="12" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="590" fromTop="12" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1613" fromTop="45" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1625" fromTop="45" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="357" fromTop="3" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1306" fromTop="38" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="535" fromTop="17" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="534" fromTop="17" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1505" fromTop="49" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1519" fromTop="49" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1519" fromTop="43" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="535" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
