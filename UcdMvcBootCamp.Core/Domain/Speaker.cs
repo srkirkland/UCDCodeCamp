@@ -13,7 +13,7 @@ namespace UcdMvcBootCamp.Core.Domain
             LastName = lastName;
         }
 
-        protected Speaker()
+        public Speaker()
         {
             Sessions = new List<Session>();
         }

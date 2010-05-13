@@ -13,7 +13,7 @@ namespace UcdMvcBootCamp.Core.Domain
             speaker.Register(this);
         }
 
-        protected Session() { }
+        public Session() { }
 
         public virtual string Title { get; private set; }
         public virtual string Abstract { get; private set; }

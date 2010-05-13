@@ -16,13 +16,13 @@ namespace UcdMvcBootCamp.Core.Domain
             SessionCount = 0;
         }
 
-        protected Conference()
+        public Conference()
         {
             Attendees = new List<Attendee>();
             Sessions = new List<Session>();
         }
 
-        public virtual string Name { get; private set; }
+        public virtual string Name { get; set; }
         public virtual int AttendeeCount { get; private set; }
         public virtual int SessionCount { get; private set; }
 

@@ -147,6 +147,7 @@
       <DependentUpon>CodeCamp.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Views\Conference\Edit.aspx" />
     <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Views\Dynamic\Index.aspx" />
     <Content Include="Web.config" />
