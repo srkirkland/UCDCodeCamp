@@ -15,7 +15,7 @@
       <Item value="c" priority="4" />
       <Item value="select" priority="1" />
       <Item value="new" priority="3" />
-      <Item value="x" priority="4" />
+      <Item value="x" priority="5" />
       <Item value="q" priority="2" />
       <Item value="ApplicationController`0" priority="0" />
       <Item value="int" priority="3" />
@@ -49,7 +49,7 @@
       <Item value="Name" priority="8" />
       <Item value="SessionCount" priority="3" />
       <Item value="Sessions" priority="4" />
-      <Item value="Id" priority="3" />
+      <Item value="Id" priority="4" />
       <Item value="ChangeName`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
@@ -69,6 +69,7 @@
       <Item value="LabelFor`2" priority="0" />
       <Item value="ValidationMessageFor`2" priority="0" />
       <Item value="AntiForgeryToken`0" priority="0" />
+      <Item value="HiddenFor`2" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
       <Item value="Get" priority="0" />
@@ -80,14 +81,12 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="933" fromTop="22" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="293" fromTop="11" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Session.cs" caret="369" fromTop="14" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="527" fromTop="19" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1266" fromTop="26" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="458" fromTop="8" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="658" fromTop="19" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1669" fromTop="15" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="357" fromTop="3" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1252" fromTop="36" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="139" fromTop="6" />
@@ -103,14 +102,9 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1861" fromTop="34" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="626" fromTop="12" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="590" fromTop="12" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="400" fromTop="4" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1271" fromTop="36" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1613" fromTop="45" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="487" fromTop="13" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="293" fromTop="11" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Session.cs" caret="369" fromTop="14" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Speaker.cs" caret="399" fromTop="14" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="658" fromTop="19" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="357" fromTop="3" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1306" fromTop="38" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
