@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web.Mvc;
 using UCDArch.Core.PersistanceSupport;
 using UCDArch.Web.Controller;
 using UcdMvcBootCamp.Core.Domain;
+using System.ComponentModel;
 
 namespace UcdMvcBootCamp.Controllers
 {
@@ -70,6 +73,60 @@ namespace UcdMvcBootCamp.Controllers
             return View(conf);
         }
 
+        public ActionResult Register(string name)
+        {
+            var conference = _conferenceRepository.Queryable.Single(x => x.Name == name);
+
+            var model = new RegistrationEditModel(conference);
+            
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Register(RegistrationEditModel registrationEditModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var attendee = new Attendee(registrationEditModel.FirstName, registrationEditModel.LastName)
+                                   {Email = registrationEditModel.Email};
+
+                attendee.RegisterFor(_conferenceRepository.GetById(registrationEditModel.ConferenceId));
+                
+                //save
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+    }
+
+    public class RegistrationEditModel
+    {
+        public RegistrationEditModel(Conference conference)
+        {
+            ConferenceId = conference.Id;
+            ConferenceName = conference.Name;
+        }
+
+        public RegistrationEditModel()
+        {
+            
+        }
+
+        [HiddenInput(DisplayValue = false)]
+        public int ConferenceId { get; set; }
+
+        [HiddenInput(DisplayValue = true)]
+        public string ConferenceName { get; set; }
+
+        [Required]
+        [DisplayName("First Name")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [DisplayName("Last Name")]
+        public string LastName { get; set; }
+        public string Email { get; set; }
     }
 
     public class ConferenceShowModel
