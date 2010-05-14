@@ -4,7 +4,7 @@
 
     <% using (Html.BeginForm()) { %>
         <%= Html.AntiForgeryToken() %>
-
+        <%= Html.HiddenFor(x=>x.Id) %>
 <fieldset>
     <legend>Edit Conference</legend>
 

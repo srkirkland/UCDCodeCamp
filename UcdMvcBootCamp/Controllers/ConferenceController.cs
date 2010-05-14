@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using UCDArch.Core.PersistanceSupport;
 using UCDArch.Web.Controller;
@@ -29,9 +30,9 @@ namespace UcdMvcBootCamp.Controllers
             return View(allConferences.ToList());
         }
 
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string name)
         {
-            var conference = _conferenceRepository.GetNullableById(id);
+            var conference = _conferenceRepository.Queryable.Single(x=>x.Name == name);
             
             return View(conference);
         }
@@ -48,6 +49,46 @@ namespace UcdMvcBootCamp.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Show(string name)
+        {
+            var conference = _conferenceRepository.Queryable.Single(x => x.Name == name);
+
+            var conf = new ConferenceShowModel
+                           {
+                               Name = conference.Name,
+                               Sessions =
+                                   conference.Sessions.Select(
+                                       x =>
+                                       new ConferenceShowModel.SessionShowModel()
+                                           {
+                                               Title = x.Title,
+                                               SpeakerFirstName = x.Speaker.FirstName,
+                                               SpeakerLastName = x.Speaker.LastName
+                                           }).ToList()
+                           };
+
+            return View(conf);
+        }
+
+    }
+
+    public class ConferenceShowModel
+    {
+        public ConferenceShowModel()
+        {
+            Sessions = new List<SessionShowModel>();
+        }
+
+        public string Name { get; set; }
+
+        public List<SessionShowModel> Sessions { get; set; }
+
+        public class SessionShowModel
+        {
+            public string Title { get; set; }
+            public string SpeakerFirstName { get; set; }
+            public string SpeakerLastName { get; set; }
+        }
     }
 
     public class ConferenceListModel

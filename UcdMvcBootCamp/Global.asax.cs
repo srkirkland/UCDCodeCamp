@@ -28,6 +28,11 @@ namespace UcdMvcBootCamp
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("Conference",
+                    "Conference/{action}/{name}",
+                    new { controller = "Conference", action = "Index", name = UrlParameter.Optional}
+                );
+
             routes.MapRoute(
                 "Default",                                              // Route name
                 "{controller}/{action}/{id}",                           // URL with parameters
