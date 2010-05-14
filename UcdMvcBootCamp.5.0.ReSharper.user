@@ -102,9 +102,9 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/f:Global.asax.cs" caret="1669" fromTop="15" />
       <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Attendee.cs" caret="534" fromTop="17" />
-      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1013" fromTop="20" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1519" fromTop="43" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Edit.aspx" caret="535" fromTop="11" />
+      <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1228" fromTop="27" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ApplicationController.cs" caret="139" fromTop="6" />
