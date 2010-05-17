@@ -148,6 +148,7 @@
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Views\Conference\Edit.aspx" />
+    <Content Include="Views\Conference\EditorTemplates\Object.ascx" />
     <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Views\Conference\Register.aspx" />
     <Content Include="Views\Conference\Show.aspx" />
