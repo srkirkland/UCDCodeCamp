@@ -87,16 +87,21 @@ namespace UcdMvcBootCamp.Controllers
         {
             if (ModelState.IsValid)
             {
-                var attendee = new Attendee(registrationEditModel.FirstName, registrationEditModel.LastName)
-                                   {Email = registrationEditModel.Email};
+                var conference = _conferenceRepository.GetById(registrationEditModel.ConferenceId);
 
-                attendee.RegisterFor(_conferenceRepository.GetById(registrationEditModel.ConferenceId));
+                var attendee = new Attendee(registrationEditModel.FirstName, registrationEditModel.LastName) { Email = registrationEditModel.Email };
                 
+                attendee.RegisterFor(conference);
+
                 //save
+                _conferenceRepository.EnsurePersistent(conference);
+
                 return RedirectToAction("Index");
             }
-
-            return View();
+            else
+            {
+                return View(registrationEditModel);
+            }
         }
     }
 
