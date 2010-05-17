@@ -96,12 +96,17 @@ namespace UcdMvcBootCamp.Controllers
                 //save
                 _conferenceRepository.EnsurePersistent(conference);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Success", registrationEditModel);
             }
             else
             {
                 return View(registrationEditModel);
             }
+        }
+
+        public ActionResult Success(RegistrationEditModel registrationEditModel)
+        {
+            return View(registrationEditModel);
         }
     }
 

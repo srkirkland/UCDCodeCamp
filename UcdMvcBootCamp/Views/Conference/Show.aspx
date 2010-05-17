@@ -3,6 +3,7 @@
 <asp:Content runat="server" ID="Content1" ContentPlaceHolderID="MainContent">
 
     <h2>Conference <%= Html.Encode(Model.Name) %></h2>
+    <p><%= Html.ActionLink("Register for this conference", "Register", new { Model.Name } ) %></p>
 
     <ul>
     <% foreach (var session in Model.Sessions) { %>
