@@ -1,5 +1,6 @@
 <%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<System.Collections.Generic.IEnumerable<UcdMvcBootCamp.Controllers.AttendeeListModel>>" %>
 
+<h3>Attendees</h3>
 <table>
 <% foreach (var attendee in Model) { %>
 
