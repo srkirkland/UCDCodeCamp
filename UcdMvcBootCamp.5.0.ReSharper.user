@@ -183,9 +183,9 @@
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Index.aspx" caret="960" fromTop="22" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Register.aspx" caret="439" fromTop="5" />
       <File id="D8222F21-87E2-4B10-AEC6-09027201F060/d:Domain/f:Conference.cs" caret="1633" fromTop="59" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="3909" fromTop="36" />
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Success.aspx" caret="603" fromTop="6" />
-      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Show.aspx" caret="499" fromTop="4" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Views/d:Conference/f:Show.aspx" caret="812" fromTop="16" />
+      <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="3909" fromTop="36" />
     </RecentFiles>
     <RecentEdits>
       <File id="D7CED80F-2BEF-4A5E-B338-1BC031A953F5/d:Controllers/f:ConferenceController.cs" caret="1453" fromTop="38" />
